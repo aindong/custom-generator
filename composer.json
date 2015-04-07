@@ -2,6 +2,7 @@
     "name": "aindong/custom-generator",
     "description": "A custom generator that would generate a new feature for a repository pattern application",
     "keywords": ["generator-extended", "generator", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Alleo Indong",
