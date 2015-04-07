@@ -1,0 +1,24 @@
+<?php
+namespace {{namespace}}\Features\{{plural}}\Controllers;
+
+use {{namespace}}\Features\{{plural}}\Repositories\{{singular}}Interface;
+
+class {{plural}}Controller extends \BaseController {
+
+    /**
+     * @var {{singular}}Interface
+     */
+    protected ${{singularLower}};
+
+    /**
+     * @param {{singular}}Interface ${{singularLower}}
+     */
+    public function __construct({{singular}}Interface ${{singularLower}}) {
+        $this->{{singularLower}} = ${{singularLower}};
+    }
+
+    public function index()
+    {
+
+    }
+}

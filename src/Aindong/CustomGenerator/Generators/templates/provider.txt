@@ -1,0 +1,20 @@
+<?php
+namespace {{namespace}}\Features\{{plural}}\Providers;
+
+use {{namespace}}\Features\{{plural}}\Models\{{singular}};
+use {{namespace}}\Features\{{plural}}\Repositories\{{singular}}Repository;
+use Illuminate\Support\ServiceProvider;
+
+class {{plural}}ServiceProvider extends ServiceProvider {
+
+    public function boot() {
+        include_once  __DIR__.'/../routes.php';
+    }
+
+    public function register()
+    {
+        $this->app->bind('{{namespace}}\Features\{{plural}}\Repositories\{{singular}}Interface', function ($app) {
+            return new {{singular}}Repository(new {{singular}});
+        });
+    }
+}

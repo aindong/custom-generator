@@ -1,0 +1,21 @@
+{
+    "name": "aindong/custom-generator",
+    "description": "A custom generator that would generate a new feature for a repository pattern application",
+    "keywords": ["generator-extended", "generator", "laravel"],
+    "authors": [
+        {
+            "name": "Alleo Indong",
+            "email": "freedom_war550@live.com.ph"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aindong\\CustomGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
