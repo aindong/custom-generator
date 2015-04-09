@@ -47,6 +47,9 @@ php artisan generate:feature featurename --path=app/Acme --namespace=Acme
 
 4. TADA! now check your features folder for the magic!
 
+## Notes
+This package already has an interface and an abstract of a regular crud process of eloquent built in. But you can always change or create your own.
+
 
 ## Notes
 This package is still under development but I'm already using it to make my work faster and reduce the time of creating new files and restructuring them. Feel free to suggest.
