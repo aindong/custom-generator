@@ -1,7 +1,7 @@
 <?php
 namespace {{namespace}}\Features\{{plural}}\Repositories;
 
-use {{namespace}}\Repositories\EloquentInterface;
+use Aindong\CustomGenerator\Repositories\EloquentInterface;
 
 interface {{singular}}Interface extends EloquentInterface {
 
