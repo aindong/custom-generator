@@ -2,8 +2,9 @@
 namespace {{namespace}}\Features\{{plural}}\Controllers;
 
 use {{namespace}}\Features\{{plural}}\Repositories\{{singular}}Interface;
+use App\Http\Controllers\Controller;
 
-class {{plural}}Controller extends \BaseController {
+class {{plural}}Controller extends Controller {
 
     /**
      * @var {{singular}}Interface
